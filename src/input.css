@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,7 +7,7 @@
 cs : custom
 */
 .cs-top-menu-item {
-	@apply hover:text-gray-800 relative py-1 after:absolute after:left-0 after:bottom-0 after:bg-light-coffee after:w-0 after:h-0.5 hover:after:w-full after:ease-in-out after:transition-all after:duration-300;
+	@apply hover:text-gray-800 relative py-1 after:lg:absolute after:lg:left-0 after:lg:bottom-0 after:lg:bg-light-coffee after:lg:w-0 after:lg:h-0.5 hover:after:lg:w-full after:lg:ease-in-out after:lg:transition-all after:lg:duration-300;
 }
 
 .cs-icon {
@@ -15,4 +16,13 @@ cs : custom
 
 .cs-bagde-circle {
 	@apply text-xs text-center rounded-full px-1.5;
+}
+
+.cs-menu-expanded {
+	@apply absolute top-10 z-50 w-full text-center bg-white animate-slideDown;
+}
+
+.cs-top-menu-item-active {
+	//dành cho việc khi muốn vào phần nào của page item menu được acctive thì xài class này
+	@apply text-gray-800 relative py-1 after:lg:absolute after:lg:left-0 after:lg:bottom-0 after:lg:bg-light-coffee after:lg:h-0.5 after:lg:w-full;
 }
