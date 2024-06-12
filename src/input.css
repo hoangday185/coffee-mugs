@@ -22,7 +22,7 @@ cs : custom
 	@apply absolute top-10 z-50 w-full text-center bg-white animate-slideDown;
 }
 
+/**dành cho việc khi muốn vào phần nào của page item menu được acctive thì xài class này */
 .cs-top-menu-item-active {
-	//dành cho việc khi muốn vào phần nào của page item menu được acctive thì xài class này
 	@apply text-gray-800 relative py-1 after:lg:absolute after:lg:left-0 after:lg:bottom-0 after:lg:bg-light-coffee after:lg:h-0.5 after:lg:w-full;
 }
