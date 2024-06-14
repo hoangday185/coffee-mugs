@@ -7,7 +7,7 @@
 cs : custom
 */
 .cs-top-menu-item {
-	@apply hover:text-gray-800 relative py-1 after:lg:absolute after:lg:left-0 after:lg:bottom-0 after:lg:bg-light-coffee after:lg:w-0 after:lg:h-0.5 hover:after:lg:w-full after:lg:ease-in-out after:lg:transition-all after:lg:duration-300;
+	@apply hover:text-gray-800 relative py-1 after:lg:absolute after:lg:left-0 after:lg:bottom-0 after:lg:bg-coffee-200 after:lg:w-0 after:lg:h-0.5 hover:after:lg:w-full after:lg:ease-in-out after:lg:transition-all after:lg:duration-300;
 }
 
 .cs-icon {
@@ -22,7 +22,18 @@ cs : custom
 	@apply absolute top-10 z-50 w-full text-center bg-white animate-slideDown;
 }
 
-/**dành cho việc khi muốn vào phần nào của page item menu được acctive thì xài class này */
 .cs-top-menu-item-active {
-	@apply text-gray-800 relative py-1 after:lg:absolute after:lg:left-0 after:lg:bottom-0 after:lg:bg-light-coffee after:lg:h-0.5 after:lg:w-full;
+	@apply text-gray-800 relative py-1 after:lg:absolute after:lg:left-0 after:lg:bottom-0 after:lg:bg-coffee-200 after:lg:h-0.5 after:lg:w-full;
+}
+
+.cs-subheadline-deco-line {
+	@apply w-8 h-px bg-gray-200;
+}
+
+.cs-subheadline {
+	@apply flex justify-center items-center mb-24;
+}
+
+.cs-subheadline-label {
+	@apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center;
 }
