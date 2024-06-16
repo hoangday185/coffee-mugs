@@ -37,3 +37,7 @@ cs : custom
 .cs-subheadline-label {
 	@apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center;
 }
+
+.cs-button {
+	@apply text-[13px] tracking-wider py-4 px-8 cursor-pointer font-semibold hover:bg-opacity-90;
+}
