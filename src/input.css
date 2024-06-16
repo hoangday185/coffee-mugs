@@ -39,7 +39,7 @@ cs : custom
 }
 
 .cs-button {
-	@apply text-[13px] tracking-wider py-4 px-8 cursor-pointer font-semibold hover:bg-opacity-90;
+	@apply text-[13px] tracking-wider py-4 px-8 cursor-pointer font-semibold hover:bg-opacity-95;
 }
 
 /* parallax : hiệu ứng nhìn ở góc độ khác nhau */
